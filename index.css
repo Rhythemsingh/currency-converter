@@ -1,0 +1,140 @@
+body{
+    background-image: url("body\ background.png");
+    backdrop-filter: blur(10px);
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 90%;
+    max-width: 500px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 20px;
+}
+
+
+#name{
+    color: white;
+    background-color:#6c63ff;
+    height: 80px;
+    font-size: 39px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-style: oblique;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#enteramount{
+    color: grey;
+    height: 25px;
+    font-size: 22px;
+    margin-left: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    height: 50px;
+     width: 90%;
+    margin: 10px auto;
+    display: block;
+    border-radius: 15px;
+    text-align: center;
+    border-color: grey;
+    font-size: 15px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+ .first{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.arrow{
+    font-size: 30px;
+    color: black;
+}
+
+
+.second img{
+   max-width: 2rem;
+}
+.second{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+select{
+    height: 35px;
+  width: 120px;
+  border-radius: 15px;
+  flex-direction: row;
+    align-content: space-between;
+    justify-content: center;
+    cursor: pointer;
+}
+
+ .arrow2{ 
+   margin-left: 170px;
+    font-size: 15px;
+    color: black;
+} 
+
+
+
+button{
+    color:white;
+    background-color: #a763ff;
+    border-radius: 18px;
+    font-size: 32px;
+    height: 55px;
+    align-items: center;
+    justify-content: center;
+     width: 80%;
+    margin: 20px auto;
+    display: block;
+     cursor: pointer;
+}
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+i{
+    margin: 0 10px;
+}
+select:hover{
+    color: white;
+    background-color: black;
+}
+input:hover{
+    color: white;
+    background-color: black;
+}
+button:hover{
+    background-color:blue;
+     transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+input:focus{
+    border-color: #6c63ff;
+    box-shadow: 0 0 5px #6c63ff;
+}
+.arrow:hover{
+    transform: rotate(180deg);
+    color: #6c63ff;
+}
+.fa-arrow-right-arrow-left:hover{
+    transform: rotate(180deg);
+    color: #6c63ff;
+}
+h2{
+    color: #333;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
